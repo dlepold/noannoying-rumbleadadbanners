@@ -2,7 +2,7 @@
 hide annoying ad banners on rumble using tampermonkey 
 
 ## Introduction
-Ads are ok, if they are ethically ok and not appalling, disturbing or incrdibly distracting. This repository hosts a simple yet effective userscript for the Tampermonkey browser extension. It's designed to hide specific ads on rumble. 
+Ads are ok, if they are ethically ok and not appalling, disturbing or incredibly distracting. This repository hosts a simple yet effective userscript for the Tampermonkey browser extension. It's designed to hide specific ads on rumble. 
 
 ## How It Works
 The script uses JavaScript to select specific elements on a webpage and sets their display style to 'none', effectively hiding them from view. It's a client-side solution that runs in your browser, requiring no server-side interactions.
