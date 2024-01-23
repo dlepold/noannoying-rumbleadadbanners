@@ -22,6 +22,7 @@ function addJQuery(callback) {
 
 function main() {
     'use strict';
+    
     // Add a delay to ensure the page elements are loaded
     setTimeout(function() {
         if (window.location.hostname.indexOf('rumble.') >= 0) {
@@ -35,7 +36,16 @@ function main() {
                 }
             });
 
-            // Additional ad-hiding logic can be added here if needed
+            // Additional 
+            // new, 23.01.24:
+            // Select the element with the class 'media-related-break' and data-section 'related'
+              var element = document.querySelector('.media-related-break[data-section="related"]');
+        
+              // Check if the element exists to avoid errors
+              if (element) {
+                  // Set the display property to 'none' to hide it
+                  element.style.display = 'none';
+              }
         }
     }, 1000);  // Adjust the delay as needed
 }
