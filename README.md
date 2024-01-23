@@ -1,10 +1,8 @@
-# noannoying-rumbleadadbanners
+# Ad Blocker Script for Tampermonkey: noannoying-rumbleadadbanners 
 hide annoying ad banners on rumble using tampermonkey 
 
-# Ad Blocker Script for Tampermonkey
-
 ## Introduction
-This repository hosts a simple yet effective userscript for the Tampermonkey browser extension. It's designed to hide specific ads on web pages, enhancing your browsing experience. The script targets elements with the class `.media-related-break` and the data attribute `data-section="related"`.
+Ads are ok, if they are ethically ok and not appalling, disturbing or incrdibly distracting. This repository hosts a simple yet effective userscript for the Tampermonkey browser extension. It's designed to hide specific ads on rumble. 
 
 ## How It Works
 The script uses JavaScript to select specific elements on a webpage and sets their display style to 'none', effectively hiding them from view. It's a client-side solution that runs in your browser, requiring no server-side interactions.
@@ -24,7 +22,7 @@ To use this script, you'll need Tampermonkey installed in your browser. Follow t
    - Save the script.
 
 ## Usage
-Once the script is installed in Tampermonkey, it automatically runs on all web pages. It looks for elements with the specified class and data attribute and hides them. No further action is required from the user.
+Once the script is installed in Tampermonkey, it automatically runs selectively on rumble pages. It looks for elements with the specified class and data attribute and hides them. No further action is required from the user.
 
 ## Contributing
 Contributions to this script are welcome! If you have improvements or bug fixes, feel free to fork this repository, make your changes, and submit a pull request.
