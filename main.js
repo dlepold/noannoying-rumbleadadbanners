@@ -6,7 +6,7 @@
 // @match        https://rumble.com/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
 // @include      https://encrypted.google.*
-// @author       You
+// @author       dlepold
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
