@@ -2,7 +2,7 @@
 // @name         Remove Annoying Ads from Rumble
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Removes specific ads from Rumble pages for a cleaner viewing experience.
+// @description  Removes specific ads from Rumble pages for when the ads are getting too crazy, aggressive, concerning for children for example...
 // @match        https://rumble.com/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
 // @include      https://encrypted.google.*
